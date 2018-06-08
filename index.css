@@ -1,273 +1,422 @@
-body{
-	margin: 0;
+body {
+    margin: 0;
 }
-.screen-up{
-	background:#192314; 
-	width: 1024px;
-	height: 526px;
-	margin: 0px auto;
-	overflow: hidden;
-	position: relative;
+
+.screen-up {
+    background: #192314;
+    width: 1024px;
+    height: 526px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
-.textbox-1{
-	width: 400px;
-	height: 200px;
-	float: left;
-	position: absolute;
-	left:100px;
-	top:136px;
-	color:#fff;
+
+.text-box-1 {
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 136px;
+    color: #fff;
 }
-.box-1{
-	width: 652px;
-	height: 447px;
-	background-image:url(green-beosound-shape-desktop.jpg);
-	background-size: 100% auto;
-	background-position: 0px -25px;
-	float: right;
+
+.box-1 {
+    width: 652px;
+    height: 447px;
+    background: url(green-beosound-shape-desktop.jpg) 0 -25px/100% auto;
+    float: right;
 }
-.third{
-	width: 400px;
-	height: 200px;
-	background: orange;
-	margin: 20px;
+
+.third {
+    width: 400px;
+    height: 200px;
+    background: orange;
+    margin: 20px;
 }
-.text1{
-	font-size: 12px;
-	margin-bottom: 25px;
-	letter-spacing: 3px;
-	font-weight: bolder;
+
+.text1 {
+    font-size: 12px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    font-weight: bolder;
 }
-.text2{
-	font-family: 黑体;
-	font-size: 30px;
-	margin-bottom: 24px;
-	letter-spacing: 4px;
+
+.text2 {
+    font-family: SimHei;
+    font-size: 30px;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
 }
-.text3{
-	font-family: 黑体;
-	font-size:13px;
-	margin-bottom:30px;
+
+.text3 {
+    font-family: SimHei;
+    font-size: 13px;
+    margin-bottom: 30px;
 }
-.button{
-	width: 240px;
-	font-family: 黑体;
-	font-weight: bolder;
-	letter-spacing: 2px;
-	font-size: 13px;
-	line-height: 42px;
-	display: block;
-	background: rgba(255,255,255,0.1);
-	color: white;
-	padding-left:40px;
-	text-decoration: none;
+
+.button {
+    width: 240px;
+    font-family: SimHei;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 42px;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding-left: 40px;
+    text-decoration: none;
 }
-.screen-cencer{
-	width: 1024px;
-	height: 406px;
-	background-image: url(img-bg-1350.jpg);
-	background-size:100% auto;
-	background-position: 0,30px;
-	position: relative;
-	margin: 0px auto;
+
+.screen-center {
+    width: 1024px;
+    height: 406px;
+    background: url(img-bg-1350.jpg) 0 30px / 100% auto;
+    position: relative;
+    margin: 0 auto;
 }
-.box-2{
-	width: 707px;
-	height: 355px;
-	position: absolute;
-	left:160px;
-	top: -45px;
+
+.box-2 {
+    width: 707px;
+    height: 355px;
+    position: absolute;
+    left: 160px;
+    top: -45px;
 }
-.pic1{
-	width: 235px;
-	height: 355px;
-	background-image: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
-	background-size: 102% auto;
-	float: left;
+
+.pic1 {
+    width: 235px;
+    height: 355px;
+    background-image: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
+    background-size: 102% auto;
+    float: left;
 }
-.pic2{
-	width: 236px;
-	height: 355px;
-	background-image: url(beoplay-p6-8.jpg);
-	background-size: 102% auto;
-	float: left;
+
+.pic2 {
+    width: 236px;
+    height: 355px;
+    background-image: url(beoplay-p6-8.jpg);
+    background-size: 102% auto;
+    float: left;
 }
-.pic3{
-	width: 236px;
-	height: 355px;
-	background-image: url(earset-subtile1.jpg);
-	background-size: 102% auto;
-	float: left;
+
+.pic3 {
+    width: 236px;
+    height: 355px;
+    background-image: url(earset-subtile1.jpg);
+    background-size: 102% auto;
+    float: left;
 }
-h4{
-	margin-left:20px;
-	color: white;
+
+h4 {
+    margin-left: 20px;
+    color: white;
 }
-.first{
-	width: 1024px;
-	height: 56px;
-	position: absolute;
-	color: white;
-	border-bottom: solid 1px silver;
+
+.first {
+    width: 1024px;
+    height: 56px;
+    position: absolute;
+    color: white;
+    border-bottom: solid 1px silver;
 }
-.first1{
-	font-size: 10px;
-	float: left;
-	margin-top: 20px;
-	margin-left:50px; 
+
+.first1 {
+    font-size: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
 }
-.first2{
-	font-size: 20px;
-	float: left;
-	margin-top:15px;
-	margin-left:370px;
-	letter-spacing: 1px;
+
+.first2 {
+    font-size: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 370px;
+    letter-spacing: 1px;
 }
-.first3{
-	font-size: 10px;
-	float: right;
-	margin-top:20px;
-	margin-right: 50px;
+
+.first3 {
+    font-size: 10px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
 }
-.screen-down{
-	width: 1024px;
-	height: auto;
-	margin: 0px auto;
-	overflow: hidden;
+
+.screen-down {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
 }
-.textbox-2{
-	width: 400px;
-	height: 150px;
-	margin: 0 auto;
-	margin-top: 100px;
-	text-align: center;
-	font-family: 黑体;
-	margin-bottom: 30px;
+
+.text-box-2 {
+    width: 400px;
+    height: 150px;
+    margin: 100px auto 30px auto;
+    text-align: center;
+    font-family: SimHei;
 }
-.text4{
-	font-size: 10px;
-	margin-bottom:25px; 
+
+.text4 {
+    font-size: 10px;
+    margin-bottom: 25px;
 }
-.text5,.text6{
-	font-size: 30px;
-	letter-spacing: 3px;
+
+.text5, .text6 {
+    font-size: 30px;
+    letter-spacing: 3px;
 }
-.text5{
-	margin-bottom: 9px;
+
+.text5 {
+    margin-bottom: 9px;
 }
-.box-3{
-	width: 1024px;
-	height: 1509px;
-	font-family: 黑体;
-	font-size: 11px;
-	color: white;
+
+.box-3 {
+    width: 1024px;
+    height: 1509px;
+    font-family: SimHei;
+    font-size: 11px;
+    color: white;
 }
-.pic4,.pic5,.pic6,.pic7,.pic8,.pic9{
-	box-sizing: border-box;
-	letter-spacing: 2px;
-	padding-left: 40px;
-	padding-top: 40px;
+
+.pic4, .pic5, .pic6, .pic7, .pic8, .pic9 {
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    padding-top: 40px;
 }
-.pic4{
-	width: 512px;
-	height: 503px;
-	background-image: url(green-beosound-shape-tablet.jpg);
-	float: left;
-	background-size:100%;
+
+.pic4 {
+    width: 512px;
+    height: 503px;
+    background-image: url(green-beosound-shape-tablet.jpg);
+    float: left;
+    background-size: 100%;
 }
-.pic5{
-	width: 512px;
-	height: 503px;
-	background-image: url(beovision-eclipse-mobile.jpg);
-	float: left;
-	background-size:100%;
+
+.pic5 {
+    width: 512px;
+    height: 503px;
+    background-image: url(beovision-eclipse-mobile.jpg);
+    float: left;
+    background-size: 100%;
 }
-.pic6{
-	width: 512px;
-	height: 503px;
-	background-image: url(beolab-50-mobile.jpg);
-	float: left;
-	background-size:100%;
+
+.pic6 {
+    width: 512px;
+    height: 503px;
+    background-image: url(beolab-50-mobile.jpg);
+    float: left;
+    background-size: 100%;
 }
-.pic7{
-	width: 512px;
-	height: 503px;
-	background-image: url(beoplay-p6-categories-mobile-2.jpg);
-	float: left;
-	background-size:100%;
+
+.pic7 {
+    width: 512px;
+    height: 503px;
+    background-image: url(beoplay-p6-categories-mobile-2.jpg);
+    float: left;
+    background-size: 100%;
 }
-.pic8{
-	width: 512px;
-	height: 503px;
-	background-image: url(beosound-core-mobile.jpg);
-	float: left;
-	background-size:100%;
+
+.pic8 {
+    width: 512px;
+    height: 503px;
+    background-image: url(beosound-core-mobile.jpg);
+    float: left;
+    background-size: 100%;
 }
-.pic9{
-	width: 512px;
-	height: 503px;
-	background-image: url(beoplay-h9i-mobile.jpg);
-	float: left;
-	background-size:100%;
+
+.pic9 {
+    width: 512px;
+    height: 503px;
+    background-image: url(beoplay-h9i-mobile.jpg);
+    float: left;
+    background-size: 100%;
 }
-.box-4{
-	width: 709px;
-	height: 323px;
-	margin:0 auto;
-	
+
+.box-4 {
+    width: 709px;
+    height: 323px;
+    margin: 0 auto 120px auto;
 }
-.pic10{
-	width: 177px;
-	height: 173px;
-	background-image: url(design-as-a-group-effort-01.jpg);
-	background-size: 100%;
-	float: left;
+
+.pic10 {
+    width: 177px;
+    height: 173px;
+    background-image: url(design-as-a-group-effort-01.jpg);
+    background-size: 100%;
+    float: left;
 }
-.pic11{
-	width: 177px;
-	height: 173px;
-	background-image: url(the-krane.jpg);
-	background-size: 100%;
-	float: left;
+
+.pic11 {
+    width: 177px;
+    height: 173px;
+    background-image: url(the-krane.jpg);
+    background-size: 100%;
+    float: left;
 }
-.pic12{
-	width: 355px;
-	height: 173px;
-	background-image: url(harmonies-story.jpg);
-	background-size: 100%;
-	float: left;
+
+.pic12 {
+    width: 355px;
+    height: 173px;
+    background-image: url(harmonies-story.jpg);
+    background-size: 100%;
+    float: left;
 }
-.text10{
-	width: 177px;
-	height: 40px;
-	font-size: 10px;
-	font-family: 黑体;
-	margin-top:24px;
-	float: left;
-	color:#232323;
+
+.text10 {
+    width: 177px;
+    height: 40px;
+    font-size: 12px;
+    font-family: SimHei;
+    margin-top: 24px;
+    float: left;
+    color: #232323;
 }
-.text11{
-	width: 177px;
-	height: 80px;
-	font-size: 12px;
-	font-family: 宋体;
-	float: left;
-	color: #606060; 
+
+.text11 {
+    width: 165px;
+    height: 80px;
+    font-size: 12px;
+    font-family: 宋体;
+    float: left;
+    color: #606060;
+    padding-right: 12px;
 }
-.text12{
-	width: 355px;
-	height: 40px;
-	font-size: 10px;
-	font-family: 黑体;
-	margin-top:24px;
-	float: left;
-	color:#232323;
+
+.text12 {
+    width: 355px;
+    height: 40px;
+    font-size: 12px;
+    font-family: SimHei;
+    margin-top: 24px;
+    float: left;
+    color: #232323;
 }
-.text13{
-	width: 355px;
-	height: 80px;
-	font-size: 12px;
-	font-family: 宋体;
-	float: left;
-	color: #606060;
+
+.text13 {
+    width: 355px;
+    height: 80px;
+    font-size: 12px;
+    font-family: 宋体;
+    float: left;
+    color: #606060;
+}
+
+.box-5 {
+    width: 1024px;
+    height: 500px;
+    border-top: 1px #f0f0f0 solid;
+    border-bottom: 1px #f0f0f0 solid;
+    font-family: SimHei;
+}
+
+.pic-left {
+    width: 511px;
+    height: 500px;
+    float: left;
+    border-right: 1px #f0f0f0 solid;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.pic-right {
+    width: 512px;
+    height: 500px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.news {
+    width: 56px;
+    height: 56px;
+    background-image: url("20180608101321.png");
+    margin: 80px auto 26px auto;
+}
+
+.text14 {
+    margin: 0 auto 26px auto;
+}
+
+.text15 {
+    margin: 0 auto 26px auto;
+    color: rgba(52, 52, 52, 0.75);
+}
+
+.check {
+    width: 56px;
+    height: 56px;
+    background-image: url("20180608101430.png");
+    margin: 80px auto 26px auto;
+}
+
+.text16 {
+    margin: 0 auto 26px auto;
+}
+
+.text17 {
+    width: 355px;
+    margin: 0 auto 110px auto;
+    color: rgba(52, 52, 52, 0.75);
+    line-height: 18px;
+}
+
+.button2 {
+    width: 200px;
+    height: 43px;
+    color: black;
+    display: block;
+    font-family: SimHei;
+    letter-spacing: 2px;
+    font-size: 13px;
+    line-height: 42px;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin: 50px auto;
+}
+
+input {
+    width: 355px;
+    height: 50px;
+    color: red;
+    padding-left: 15px;
+    outline: none;
+}
+.box-6{
+    width: 996px;
+    height: 65px;
+    padding: 0 14px ;
+}
+.box-bottom-left{
+    width:150px;
+    height: 18px;
+    margin: 25px auto auto 30px;
+}
+.picture{
+    width: 18px;
+    height: 18px;
+    background-image:url("20180608155454.png") ;
+    float: left;
+    margin-right: 15px;
+}
+.chinese{
+    float: left;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+.box-bottom-right{
+    width: 530px;
+    height: 40px;
+    margin: -15px 0 auto auto;
+}
+.box-bottom-right div{
+    font-size: 10px;
+    float: right;
+    margin-right: 15px;
+    line-height: 20px;
 }
